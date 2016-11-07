@@ -1,0 +1,19 @@
+package com.stefanini.bean;
+
+import javax.inject.Inject;
+import javax.inject.Named;
+
+import com.stefanini.service.AgenteService;
+
+@Named( "agenteMB")
+public class AgenteBean {
+
+	@Inject
+	private AgenteService agenteService;
+
+	private void Cadastrar(Agente a) {
+	
+		
+		
+	}
+}

@@ -1,0 +1,16 @@
+package com.stefanini.bean;
+
+import javax.inject.Inject;
+
+import com.stefanini.service.AgenteService;
+
+public class AgenteBean {
+
+	@Inject
+	private AgenteService agenteService;
+
+	private void teste() {
+		// TODO Auto-generated method stub
+
+	}
+}

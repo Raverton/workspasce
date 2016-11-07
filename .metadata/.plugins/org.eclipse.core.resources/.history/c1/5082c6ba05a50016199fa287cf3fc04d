@@ -1,0 +1,22 @@
+package com.stefanini.bean;
+
+import javax.faces.bean.SessionScoped;
+import javax.inject.Inject;
+import javax.inject.Named;
+
+import com.stefanini.model.Agente;
+import com.stefanini.service.AgenteService;
+
+@SessionScoped
+@Named("agenteMB")
+public class AgenteBean {
+
+	@Inject
+	private AgenteService agenteService;
+	@Inject
+	public Agente agente;
+
+	private void Cadastrar(Agente a) {
+
+	}
+}
